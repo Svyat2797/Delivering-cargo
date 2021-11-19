@@ -1,0 +1,28 @@
+.agent {
+    min-height: 350px;
+
+    background: url('../../img/background/layers.png')  center (center/cover) no-repeat ;
+    
+    &__photo {
+        text-align: center;
+    }
+    &__subtitle {
+        font-size: 26px;
+        line-height: 23px;
+        font-weight: 700;
+        color: #ffffff;
+        text-align: center;
+        margin-top: 20px;
+    }
+    &__text {
+        font-family: Roboto;
+        font-size: 19px;
+        line-height: 27px;
+        font-weight: 300;
+        color: #ffffff;
+        text-align: center;
+        margin: 0 auto;
+        margin-top: 22px;
+        width: 985px;
+    }
+}

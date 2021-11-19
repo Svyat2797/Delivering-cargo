@@ -1,0 +1,16 @@
+.btn {
+    width: 160px;
+    height: 45px;
+    background-color: $main-color;
+    cursor: pointer;
+    font-size: 12px;
+    line-height: 22px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #ffffff;
+    border: none;
+    border-radius: 20px;
+    &:hover {
+        box-shadow: inset 0px 0px 30px rgba(216, 20, 13, 0.897);
+    }
+}
