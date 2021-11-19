@@ -12,6 +12,12 @@
     width: 1200px;
     margin: 0 auto;
 }
+p {
+    margin-bottom: 0;
+}
+h1,h2,h3 {
+    margin-bottom: 0;
+}
 
 @import 'blocks/promo';
 @import 'blocks/title';
@@ -19,3 +25,4 @@
 @import 'blocks/advantage';
 @import 'blocks/benefit';
 @import 'blocks/agent';
+@import 'blocks/price';
