@@ -1,0 +1,26 @@
+.manager {
+    min-height: 342px;
+    padding: 58px 0 76px 0;
+    background: url('../../img/background/bac_managers.png') center (center/cover) no-repeat;
+    &__photo {
+        text-align: center;
+    }
+    &__subtitle {
+        margin-top: 20px;
+        text-align: center;
+        font-size: 26px;
+        line-height: 23px;
+        font-weight: 700;
+        color: #ffffff;
+    }
+    &__text {
+        margin: 0 auto;
+        margin-top: 18px;
+        text-align: center;
+        font-size: 19px;
+        line-height: 27px;
+        font-weight: 300;
+        color: #ffffff;
+        width: 925px;
+    }
+}

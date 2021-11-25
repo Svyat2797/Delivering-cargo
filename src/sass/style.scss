@@ -2,6 +2,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&family=Roboto:wght@100;300;400;500;700;900&display=swap');
 @import 'base/variables';
+@import 'base/forms';
+
 
 * {
     font-family: 'Roboto', 'Roboto Condensed', sans-serif;
@@ -9,6 +11,7 @@
     padding: 0;
 }
 .container {
+    position: relative;
     width: 1200px;
     margin: 0 auto;
 }
@@ -18,6 +21,14 @@ p {
 h1,h2,h3 {
     margin-bottom: 0;
 }
+.line {
+    margin: 0 auto;
+    margin-top: 20px;
+    width: 148px;
+    height: 1px;
+    background-color: $main-color;
+}
+
 
 @import 'blocks/promo';
 @import 'blocks/title';
@@ -26,3 +37,10 @@ h1,h2,h3 {
 @import 'blocks/benefit';
 @import 'blocks/agent';
 @import 'blocks/price';
+@import 'blocks/manager';
+@import 'blocks/scheme';
+@import 'blocks/review';
+@import 'blocks/question';
+@import 'blocks/map';
+@import 'blocks/footer';
+@import 'base/media';

@@ -1,12 +1,5 @@
 .price {
     padding: 53px 0 58px 0;
-    &__line {
-        margin: 0 auto;
-        margin-top: 20px;
-        width: 148px;
-        height: 1px;
-        background-color: $main-color;
-    }
     &__text {
         margin-top: 17px;
         font-size: 21px;
@@ -28,7 +21,7 @@
         padding-bottom: 26px;
     }
     &__header {
-        padding: 20px 58px 22px 58px;
+        padding-top: 20px;
         height: 61px;
         background-color: #25333c;
         font-size: 16px;
@@ -36,6 +29,7 @@
         font-weight: 700;
         text-transform: uppercase;
         color: #ffffff;
+        text-align: center;
     }
     &__icons{
         text-align: center;
@@ -96,14 +90,7 @@
     &__form {
         margin-top: 67px;
         text-align: center;
-        input {
-            padding: 20px 20px 20px 30px;
-            width: 270px;
-            height: 47px;
-            background-color: #ffffff;
-            border: 1px solid rgba(0,0,0,0.2);
-            border-radius: 20px;
-        }
+        
     }
     &__key {
         position: absolute;
