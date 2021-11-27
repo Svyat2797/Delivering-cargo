@@ -14,4 +14,4 @@ const slider = tns({
   document.querySelector('.prev').addEventListener('click', function () {
     slider.goTo('prev'); 
   }); 
-  
+

@@ -56,15 +56,16 @@
                 <div class="promo__icon">
                     <img src="icons/logo.png" alt="logo">
                 </div>
-                <nav class="promo__list">
-                    <ul>
-                        <li><a href="#advantage">Преимущества</a></li>
-                        <li><a href="#benefit">Наша работа</a></li>
-                        <li><a href="#price">Цены</a></li>
-                        <li><a href="#scheme">Схема работы</a></li>
-                        <li><a href="#review">Отзывы</a></li>
-                        <li><a href="#question">Контакты</a></li>
+                <nav >
+                    <ul class="promo__list">
+                        <li class="promo__element"><a class="promo__link" href="#advantage">Преимущества</a></li>
+                        <li class="promo__element"><a class="promo__link" href="#benefit">Наша работа</a></li>
+                        <li class="promo__element"><a class="promo__link" href="#price">Цены</a></li>
+                        <li class="promo__element"><a class="promo__link" href="#scheme">Схема работы</a></li>
+                        <li class="promo__element"><a class="promo__link" href="#review">Отзывы</a></li>
+                        <li class="promo__element"><a class="promo__link" href="#question">Контакты</a></li>
                     </ul>
+                    
                 </nav>
                 <div class="promo__phone">
                     <div class="promo__phone-number">
@@ -72,40 +73,54 @@
                         <div class="promo__phone-num">+7 (926) 423 01 00</div>
                     </div>
                     <button class="btn promo__btn" >Перезвоните мне</button>
+                   <!--  <div class="hamburger">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div> -->
                 </div>
             </header>
-            <h2 class="promo__subtitle">Global Opt - логистика полного цикла из Китая в Россию</h2>
-            <div class="promo__title">ДОСТАВКА ГРУЗОВ ИЗ КИТАЯ</div>
-            <div class="promo__subheading">В РОССИЮ И СНГ ВСЕМИ ВИДАМИ ТРАНСПОРТА</div>
+            <h3 class="promo__subtitle">Global Opt - логистика полного цикла из Китая в Россию</h3>
+            <h1 class="promo__title">ДОСТАВКА ГРУЗОВ ИЗ КИТАЯ</h1>
+            <h2 class="promo__subheading">В РОССИЮ И СНГ ВСЕМИ ВИДАМИ ТРАНСПОРТА</h2>
             <div class="promo__wrapper">
                 <div class="promo__line"></div>
                 <div class="promo__circle"></div>
                 <div class="promo__divider"></div>
             </div>
             <div class="promo__wrap">
+                <div class="promo__item">
                     <div class="promo__item-photo">
                         <img src="icons/bag.png" alt="bag">
                     </div>
-                    <div class="promo__item-photo">
+                    <p class="promo__item-text">Перевозка негабаритных и крупнотоннажных грузов</p>
+                </div>
+                <div class="promo__item">
+                     <div class="promo__item-photo">
                         <img src="icons/touch.png" alt="touch">
                     </div>
+                    <p class="promo__item-text mb">Самостоятельно декларируем и проводим таможенную очистку с оптимизацией кодов и ставок</p>
+                </div>
+                <div class="promo__item">
                     <div class="promo__item-photo">
                         <img src="icons/hand.png" alt="hand">
                     </div>
+                    <p class="promo__item-text">Осуществляем прямые поставки с заводов от двери до двери </p>
+                </div>
+                <div class="promo__item">
                     <div class="promo__item-photo">
                         <img src="icons/delivery.png" alt="delivery">
                     </div>
-                    <p class="promo__item-text">Перевозка негабаритных и крупнотоннажных грузов</p>
-                    <p class="promo__item-text">Самостоятельно декларируем и проводим таможенную очистку с оптимизацией кодов и ставок</p>
-                    <p class="promo__item-text">Осуществляем прямые поставки с заводов от двери до двери</p>
                     <p class="promo__item-text">Экспресс доставка 1-2 дня из Гуанчжоу в Москву от 25$/кг  </p>
+                </div>
             </div>
             <button class="btn promo__snap">Получить расчет</button>
         </div>
+       
     </section>
-    <!-- <section class="advantage" id="advantage">
+     <section class="advantage" id="advantage">
         <div class="container">
-            <div class="title">Преимущества работы с GlobalOpt</div>
+            <div class="title advantage__title">Преимущества работы с GlobalOpt</div>
             <div class="advantage__wrapper">
                 <div class="advantage__item">
                     <div class="advantage__item-icon">
@@ -181,10 +196,10 @@
                 </div>
             </div>
         </div>
-    </section> -->
-    <!-- <section class="benefit" id="benefit">
+    </section> 
+    <section class="benefit" id="benefit">
         <div class="container">
-            <div class="title">Наша работа - больше чем просто доставка</div>
+            <div class="title benefit__title ">Наша работа - больше чем просто доставка</div>
             <div class="benefit__divider"></div>
             <div class="benefit__text">Мы организуем перевозки из Китая - оперативно и надежно, с учетом особенностей груза
                 и ваших требований по срокам и бюджету.</div>
@@ -220,8 +235,8 @@
                 </div>
              </div>
         </div>
-    </section> -->
-    <!-- <section class="agent">
+    </section>
+    <section class="agent">
         <div class="container">
             <div class="agent__photo">
                 <img src="icons/agent.png" alt="agent">
@@ -229,10 +244,10 @@
             <h2 class="agent__subtitle">Агент в Китае</h2>
             <p class="agent__text">Русскоговорящие представители компании без труда найдут именно тот товар, который будет отвечать Вашим запросам как по качеству, так и по цене.</p>
         </div>
-    </section> -->
-    <!-- <section class="price" id="price">
+    </section> 
+    <section class="price" id="price">
         <div class="container">
-            <h2 class="title">Цены на любой вариант доставки</h2>
+            <h2 class="title price__title">Цены на любой вариант доставки</h2>
             <div class="line"></div>
             <p class="price__text">Перевозки грузов на дальние расстояния без каких-либо ограничений.<br>
                 Любой груз доставим вовремя. </p>
@@ -282,20 +297,20 @@
                     <button class="btn price__btn">Подробнее</button>
                 </div>
             </div>
-            <h2 class="title price__title">Заказать бесплатную консультацию</h2>
+            <h2 class="title price__title price__title-margin">Заказать бесплатную консультацию</h2>
             <div class="price__info">
                 <div class="price__operator">
                     <img src="icons/operator.png" alt="operator">
                 </div>
                 <form action="#" class="forms price__form">
-                    <input required type="name" placeholder="Ваше имя...">
-                    <input required type="phone" placeholder="Ваш номер телефона...">
-                    <input required type="email" placeholder="Ваш e-mail...">
+                    <input  required type="name" placeholder="Ваше имя...">
+                    <input  required type="phone" placeholder="Ваш номер телефона...">
+                    <input class="price__input" required type="email" placeholder="Ваш e-mail...">
                 <button class="btn price__key">Отправить заявку</button>
             </form>
             </div>
         </div>
-    </section> -->
+    </section>
     <!-- <section class="manager">
         <div class="container">
             <div class="manager__photo">
